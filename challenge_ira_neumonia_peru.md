@@ -214,6 +214,12 @@ plt.show()
 > tres observaciones anuales y no debe interpretarse como un pronóstico
 > oficial.
 
+### Gráfica del Bloque 2: Regresión y predicción
+
+![Gráfica de regresión y predicción del Bloque 2](./descarga.png)
+
+> **Interpretación:** La gráfica permite visualizar los resultados del modelo de predicción. La estimación debe interpretarse con precaución, ya que depende de los datos utilizados para entrenar el modelo.
+
 ### Sustentación del Bloque 2
 
 -   **Modelo elegido:** regresión lineal porque predice una cantidad
