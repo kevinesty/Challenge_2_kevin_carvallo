@@ -216,7 +216,7 @@ plt.show()
 
 Regresión y predicción
 
-![Gráfica de regresión y predicción del Bloque 2](./descarga.png)
+![Gráfica de regresión y predicción del Bloque 2](./grafico_de_defunciones.png)
 
 > **Interpretación:** La gráfica permite visualizar los resultados del modelo de predicción. La estimación debe interpretarse con precaución, ya que depende de los datos utilizados para entrenar el modelo.
 
