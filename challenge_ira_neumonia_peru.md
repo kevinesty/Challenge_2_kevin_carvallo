@@ -214,7 +214,7 @@ plt.show()
 > tres observaciones anuales y no debe interpretarse como un pronóstico
 > oficial.
 
-Regresión y predicción
+## Regresión y predicción
 
 ![Gráfica de regresión y predicción del Bloque 2](./grafico_de_defunciones.png)
 
