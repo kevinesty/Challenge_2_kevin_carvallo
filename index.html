@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Challenge 2: análisis de IRA y neumonía en menores de cinco años en el Perú.">
+  <title>Challenge 2 | IRA y neumonía en el Perú</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">+</span><span>Challenge 2 <small>Fundamentos de IA y Búsqueda</small></span></a>
+    <nav><a href="#indicadores">Indicadores</a><a href="#analisis">Análisis</a><a href="#prevencion">Prevención</a><a href="#metodologia">Metodología</a><a href="challenge_ira_neumonia_peru.md">Informe MD</a></nav>
+  </header>
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ANÁLISIS DE DATOS · SALUD PÚBLICA · PERÚ</p>
+        <h1>Infecciones respiratorias agudas y neumonía en menores de 5 años</h1>
+        <p class="lead">Una presentación visual de los indicadores compartidos para 2023–2025, con razonamiento, comparación de alternativas preventivas y límites de interpretación.</p>
+        <div class="hero-actions"><a class="button primary" href="#indicadores">Explorar indicadores</a><a class="button secondary" href="challenge_ira_neumonia_peru.md">Leer informe completo ↗</a></div>
+        <p class="note">Trabajo académico. Las cifras proceden del material de referencia compartido y no se han verificado de forma independiente en este paquete.</p>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-label">Resumen de los datos</div>
+        <div class="big-number" id="heroIra">824,978</div><div class="metric-caption">episodios de IRA · 2025</div>
+        <div class="thin-rule"></div>
+        <div class="big-number smaller" id="heroDeaths">51</div><div class="metric-caption">defunciones por neumonía · 2025</div>
+        <div class="trend"><span class="trend-dot"></span> Los indicadores descienden en el periodo mostrado.</div>
+      </div>
+    </section>
+
+    <section class="section" id="indicadores">
+      <div class="section-heading"><div><p class="eyebrow">01 / INDICADORES</p><h2>Evolución entre 2023 y 2025</h2></div><p>Selecciona una serie para explorar sus valores.</p></div>
+      <div class="stats-grid">
+        <article class="stat-card"><span class="stat-label">Episodios de IRA · 2023</span><strong>1,003,178</strong><span class="stat-foot">Valor inicial compartido</span></article>
+        <article class="stat-card"><span class="stat-label">Episodios de IRA · 2025</span><strong>824,978</strong><span class="stat-foot">−17.8% frente a 2023</span></article>
+        <article class="stat-card"><span class="stat-label">Defunciones · 2023</span><strong>113</strong><span class="stat-foot">Valor inicial compartido</span></article>
+        <article class="stat-card"><span class="stat-label">Defunciones · 2025</span><strong>51</strong><span class="stat-foot">−54.9% frente a 2023</span></article>
+      </div>
+      <div class="chart-card">
+        <div class="chart-toolbar"><div><p class="eyebrow">SERIE ANUAL</p><h3 id="chartTitle">Episodios de IRA</h3></div><div class="segmented"><button class="active" data-series="ira">Episodios IRA</button><button data-series="deaths">Defunciones</button></div></div>
+        <div class="chart-wrap"><canvas id="trendChart" aria-label="Gráfico interactivo de indicadores por año"></canvas></div>
+        <div class="chart-legend"><span class="legend-dot"></span><span id="chartLegend">Episodios de IRA</span><span class="legend-hint">Selecciona un botón para cambiar de serie</span></div>
+      </div>
+      <div class="table-card"><h3>Tabla de datos</h3><div class="table-scroll"><table><thead><tr><th>Año</th><th>Episodios de IRA</th><th>Defunciones por neumonía</th></tr></thead><tbody><tr><td>2023</td><td>1,003,178</td><td>113</td></tr><tr><td>2024</td><td>883,959</td><td>82</td></tr><tr><td>2025</td><td>824,978</td><td>51</td></tr></tbody></table></div></div>
+    </section>
+
+    <section class="section split" id="analisis">
+      <div><p class="eyebrow">02 / RAZONAMIENTO</p><h2>¿Qué nos dicen los datos?</h2><p>Los valores compartidos muestran una disminución de episodios de IRA y de defunciones por neumonía durante 2023–2025. Esta observación describe una tendencia, pero por sí sola no demuestra qué factores la causaron.</p><p>Para explicar las variaciones sería necesario contar con datos adicionales, como cobertura de vacunación, distribución regional, factores climáticos, condiciones socioeconómicas y acceso a servicios de salud.</p></div>
+      <div class="insight-list"><article><span class="insight-number">A</span><div><h3>Observación</h3><p>Los indicadores disminuyen en los tres años registrados.</p></div></article><article><span class="insight-number">B</span><div><h3>Hipótesis posible</h3><p>Las medidas preventivas y la atención oportuna podrían contribuir, pero los datos presentados no permiten medir su efecto individual.</p></div></article><article><span class="insight-number">C</span><div><h3>Dato que falta</h3><p>Información regional y de cobertura para contrastar explicaciones y evitar conclusiones causales no demostradas.</p></div></article></div>
+    </section>
+
+    <section class="section" id="prevencion">
+      <div class="section-heading"><div><p class="eyebrow">03 / ALTERNATIVAS</p><h2>Opciones preventivas consideradas</h2></div><p>La siguiente matriz es ilustrativa, no corresponde a mediciones oficiales.</p></div>
+      <div class="alternatives-grid">
+        <article class="alternative"><span class="alt-tag">Alternativa 01</span><h3>Vacunación y campañas</h3><p>Fortalecer información preventiva y facilitar el acceso a vacunas según las indicaciones de las autoridades sanitarias.</p><div class="score"><span>Puntuación ilustrativa</span><strong>4.25/5</strong></div></article>
+        <article class="alternative"><span class="alt-tag">Alternativa 02</span><h3>Higiene y ventilación</h3><p>Promover lavado de manos, ventilación de espacios y medidas de cuidado cuando existen síntomas respiratorios.</p><div class="score"><span>Puntuación ilustrativa</span><strong>4.25/5</strong></div></article>
+        <article class="alternative"><span class="alt-tag">Alternativa 03</span><h3>Atención oportuna</h3><p>Favorecer el reconocimiento de signos de alarma y la búsqueda temprana de atención sanitaria.</p><div class="score"><span>Puntuación ilustrativa</span><strong>2.75/5</strong></div></article>
+      </div>
+      <p class="note">Las puntuaciones se calcularon con pesos propuestos para el ejercicio académico; no son evidencia de efectividad clínica ni de impacto real.</p>
+    </section>
+
+    <section class="section methodology" id="metodologia">
+      <p class="eyebrow">04 / MÉTODO Y LÍMITES</p><h2>Cómo interpretar esta presentación</h2>
+      <div class="method-grid"><article><h3>Datos de entrada</h3><p>Valores anuales de episodios de IRA y defunciones por neumonía en menores de cinco años, según el material compartido.</p></article><article><h3>Procesamiento</h3><p>Comparación temporal, cálculo de variaciones porcentuales y representación gráfica con JavaScript.</p></article><article><h3>Limitaciones</h3><p>No se dispone aquí de desagregación regional, cobertura real de vacunas, costos, factores de confusión ni evaluación causal.</p></article></div>
+      <div class="source-box"><strong>Fuente indicada en el material:</strong> Ministerio de Salud del Perú (MINSA), enlace compartido: <a href="https://www.gob.pe/institucion/minsa/noticias/1192975" target="_blank" rel="noreferrer">gob.pe/minsa</a>. La referencia y los datos deben contrastarse con la publicación oficial antes de utilizarlos como cifras verificadas.</div>
+      <a class="button primary" href="challenge_ira_neumonia_peru.md">Consultar informe Markdown completo ↗</a>
+    </section>
+  </main>
+  <footer><span>Challenge 2 · Fundamentos de IA y Búsqueda</span><span>Proyecto académico · Perú · 2023–2025</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
